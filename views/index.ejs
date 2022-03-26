@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <h1>
+    <%= title %>
+  </h1>
+  <form action="/netincome" method="get">
+    <!-- <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br> -->
+    <label for="income">เงินเดือน,:</label>
+      <input type="number" id="income" name="income"><br><br>
+      <label for="months">จํานวนเดือนที่ได้รับเงิน,:</label>
+      <input type="number" id="months" name="months"><br><br>
+      <br><br>
+      <label for="cryptoincome">กําไรที่ได้รับจากคริปโตเคอเรนซี,:</label>
+      <input type="number" id="cryptoincome" name="cryptoincome"><br><br>
+      <label for="socialsecurity">ประกันสังคม,:</label>
+      <input type="number" id="socialsecurity" name="socialsecurity"><br><br>
+      <label for="lifeinsurance">ประกันชีวิตและประกันสะสมทรัพย์,:</label>
+      <input type="number" id="lifeinsurance" name="lifeinsurance"><br><br>
+      <label for="healthinsurance">ประกันสุขภาพ,:</label>
+      <input type="number" id="healthinsurance" name="healthinsurance"><br><br>
+      <label for="rmf">กองทุนรวมเพื่อการเลี้ยงชีพ,:</label>
+      <input type="number" id="rmf" name="rmf"><br><br>
+      <label for="ssf">กองทุนรวมเพื่อการออม,:</label>
+      <input type="number" id="ssf" name="ssf"><br><br>
+      <label for="pvd">กองทุนสํารองเลี้ยงชีพ,:</label>
+      <input type="number" id="pvd" name="pvd"><br><br>
+      <input type="submit" value="Submit">
+  </form>
+</body>
+
+</html>

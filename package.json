@@ -1,21 +1,10 @@
 {
-  "name": "MVC",
-  "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^5.3.4",
-    "moment": "^2.29.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.13"
+    "express": "^4.17.3",
+    "express-generator": "^4.16.1"
   }
 }
