@@ -16,22 +16,22 @@ function calnetincome(data) {
             eatd += 100000
         }
         if (data.socialsecurity <= 5100) {
-            eatd += data.socialsecurity
+            insurance += data.socialsecurity
         }
         else {
-            eatd += 5100
+            insurance += 5100
         }
         if (data.lifeinsurance <= 100000) {
             insurance += data.lifeinsurance
         }
         else {
-            eatd += 100000
+            insurance += 100000
         }
         if (data.healthinsurance <= 25000) {
             insurance += data.healthinsurance
         }
         else {
-            eatd += 25000
+            insurance += 25000
         }
         if (insurance <= 100000) {
             eatd += insurance
